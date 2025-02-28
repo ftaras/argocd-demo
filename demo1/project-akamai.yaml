@@ -1,10 +1,10 @@
 apiVersion: hydrolix.io/v1
 kind: Project
 metadata:
-  name: my-awesome-project
+  name: akamai
   namespace: default
 spec:
-  name: My Awesome Project
+  name: akamai
   description: This is an example project created via ArgoCD
   settings:
     featureFlag: true
