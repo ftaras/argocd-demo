@@ -8,7 +8,4 @@ spec:
   description: This is an example project created via ArgoCD
   settings:
     featureFlag: true
-    maxRetries: 15
-    customConfig:
-      key1: value1
-      key2: value2
+    maxRetries: 16
