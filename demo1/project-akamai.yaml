@@ -9,3 +9,4 @@ spec:
   settings:
     featureFlag: true
     maxRetries: 16
+    maxAge: 24
