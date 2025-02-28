@@ -1,4 +1,4 @@
-apiVersion: hydrolix/v1
+apiVersion: hydrolix.io/v1
 kind: Project
 metadata:
   name: my-awesome-project
