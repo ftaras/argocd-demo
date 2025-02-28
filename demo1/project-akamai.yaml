@@ -1,0 +1,14 @@
+apiVersion: hydrolix/v1
+kind: Project
+metadata:
+  name: my-awesome-project
+  namespace: default
+spec:
+  name: My Awesome Project
+  description: This is an example project created via ArgoCD
+  settings:
+    featureFlag: true
+    maxRetries: 5
+    customConfig:
+      key1: value1
+      key2: value2
