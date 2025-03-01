@@ -2,9 +2,11 @@
   apiVersion: 'hydrolix.io/v1',
   kind: 'Project',
   metadata: {
-    name: self.spec.name
+    name: self.spec.name,  // Automatically set metadata.name from spec.name
   },
   spec: {
-    name: 'project-a'
-  }
+    name: error 'spec.name must be defined in child projects',  // Force child projects to define spec.name
+    description: '',
+    settings: {},
+  },
 }
