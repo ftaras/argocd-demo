@@ -1,4 +1,4 @@
-local base = import 'base_project.jsonnet';
+local base = import '../../base/projects/project.jsonnet';
 
 base({
   name: 'project-a',  // Define spec.name here
