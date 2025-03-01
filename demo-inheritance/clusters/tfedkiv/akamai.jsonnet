@@ -1,6 +1,9 @@
 local base = import '../../base/projects/project.jsonnet';
 
 base {
+  metadata+: {
+    name: 'akamai'
+  },
   spec+: {
     name: 'akamai'
     description: 'Akamai project',
