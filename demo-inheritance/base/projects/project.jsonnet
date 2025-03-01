@@ -2,7 +2,7 @@
   apiVersion: 'hydrolix.io/v1',
   kind: 'Project',
   metadata: {
-    name: self.spec.name
+    name: 'project-a'
   },
   spec: {
     name: 'project-a'
