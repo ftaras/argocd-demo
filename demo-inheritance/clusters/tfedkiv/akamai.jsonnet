@@ -5,7 +5,7 @@ base {
     name: 'akamai'
   },
   spec+: {
-    name: 'akamai'
+    name: 'akamai',
     description: 'Akamai project',
     settings+: {
       region: 'eu-west-1',
