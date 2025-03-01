@@ -1,12 +1,10 @@
-local base = import '../../base/projects/project.jsonnet';
+local base = import 'base_project.jsonnet';
 
-base {
-  spec+: {
-    name: 'akamai',  // Define spec.name here
-    description: 'Common Project A',
-    settings: {
-      region: 'us-east-1',
-      enabled: true,
-    },
+base({
+  name: 'project-a',  // Define spec.name here
+  description: 'Project A',
+  settings: {
+    region: 'us-east-1',
+    enabled: true,
   },
-}
+})
